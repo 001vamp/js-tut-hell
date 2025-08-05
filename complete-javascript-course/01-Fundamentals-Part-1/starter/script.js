@@ -32,3 +32,5 @@ if (slimeStatus === `Slime`) {
     console.log(`Not Slime :(`);
 
 }
+
+// Finished 17 - Continue Fundamentals. 
