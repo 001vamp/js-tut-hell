@@ -257,48 +257,167 @@
 //  */
 //     */
 
-const people = [
-    `Len`,
-    `Slime`,
-    `2025-2002`,
-    'My Future',
-    ["Ana", "Liah", "Uni"],
-    true,
-    `slatt`
-];
+// const people = [
+//     `Len`,
+//     `Slime`,
+//     `2025-2002`,
+//     'My Future',
+//     ["Ana", "Liah", "Uni"],
+//     true,
+//     `slatt`
+// ];
 
-const types = [];
-
-
-
-for (let i = 0; i < people.length; i++) {
+// const types = [];
 
 
-    console.log(people[i], typeof people[i]);
+
+// for (let i = 0; i < people.length; i++) {
 
 
-    // filled the array
-    //types[i] = typeof people[i];
+//     console.log(people[i], typeof people[i]);
 
 
-    // i thought i had to use the return method to pass the types value outside of this loop? or is that only for functions?
+//     // filled the array
+//     //types[i] = typeof people[i];
 
-    types.push(typeof people[i]);
+
+//     // i thought i had to use the return method to pass the types value outside of this loop? or is that only for functions?
+
+//     types.push(typeof people[i]);
+// }
+
+// console.log(types);
+
+// const years = [2002, 2008, 2010, 2012, 2020];
+// const year = 2025;
+// const ages = []
+
+// for (let i = 0; i < years.length; i++) {
+//     console.log(
+//         `The age of index ${years[i]}: ${year - years[i]}`
+//     );
+
+//     ages.push(year - years[i]);
+
+// }
+
+// console.log(ages);
+
+
+// looping backwards and loops inside of loops
+// 
+// const people = [
+//     `Len`,
+//     `Slime`,
+//     `2025-2002`,
+//     'My Future',
+//     ["Ana", "Liah", "Uni"],
+//     true,
+//     `slatt`
+// ];
+// 
+// 
+// // i think i know how to do this after waiting for teach to stop babbling aka my try 
+// 
+// 
+// for (let i = people.length - 1; i >= 0; i--) {
+// 
+//     console.log(people[i]);
+// 
+// };
+// 
+// // damn im goated!
+// 
+// // i think making a loop inside of a loop is pretty self explantory so ill skip coding that for now until i acc need 2
+// 
+// // only takes a condition unlike for loop
+// 
+// let i = 1;
+// 
+// while (i <= 10) {
+//     // console.log(`repeating.. ${i}`);
+//     i++;
+// };
+// 
+// console.log(i);
+// 
+// 
+// let dice = Math.trunc(Math.random() * 6) + 1;
+// 
+// // console.log(`dice #` + dice);
+// 
+// while (dice !== 6) {
+//     console.log(`You rolled: ` + dice);
+//     dice = Math.trunc(Math.random() * 6) + 1
+//     console.log(dice);
+// };
+// 
+// // final coding section :3
+// 
+// 
+// 
+// // Create an array called bills containing all 10 test bill values.
+// 
+// // Create empty arrays for the tips and the totals (tips and totals)
+// 
+// /* Use the calcTip function we wrote before (included in the starter code) to calculate
+//  tips and total values (bill + tip) for every bill value in the bills array. 
+//  Use a for loop to perform the 10 calculations! */
+// 
+// 
+// // 2, 295, 176, 440, 37, 105, 10, 1100, 86, and 52.
+// 
+// // bonus: Write a function calcAverage which takes an array called arr as an argument. 
+// // This function calculates the average of all numbers in the given array. 
+// // This is a DIFFICULT challenge (we haven't done this before)! 
+// 
+// 
+// //              First, you will need to add up all values in the array. 
+// //      To do the addition, start by creating a variable sum that starts at 0. 
+// // Then loop over the array using a for loop. In each iteration, add the current value 
+// // to the sum variable. This way, by the end of the loop, you have all values 
+// //                  added together.
+// 
+// //      To calculate the average, divide the sum you calculated before by the length of 
+// //          the array (because that's the number of elements).
+// 
+// //Call the function with the totals array.
+// 
+// 
+const calcTip = function (bill) {
+    return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 }
 
-console.log(types);
+const calcAvg = function (arr) {
 
-const years = [2002, 2008, 2010, 2012, 2020];
-const year = 2025;
-const ages = []
+    let total = 0;
+    let j = 1;
 
-for (let i = 0; i < years.length; i++) {
-    console.log(
-        `The age of index ${years[i]}: ${year - years[i]}`
-    );
+    for (let i = 0; i < arr.length; i++) {
+        // total = total +  arr[i];
+        total = + arr[i]; // same as the top 
+    };
+    console.log(total);
 
-    ages.push(year - years[i]);
+    return total / arr.length;
+}
+
+let bills = [2, 295, 176, 440, 37, 105, 10, 1100, 86, 52]
+let tips = []
+let totals = []
+
+
+for (let i = 0; i < bills.length; i++) {
+    tips.push(calcTip(bills[i]))
+    console.log(`run ${i + 1} with bill # ${bills[i]} :` + tips)
+
+    totals.push(tips[i] + bills[i]);
+    console.log(`Doing math rn.. ( ${tips[i]} + ${bills[i]} )`)
 
 }
 
-console.log(ages);
+console.log(totals);
+
+console.log(calcAvg(totals));
+
+//tips is filled after this loop
