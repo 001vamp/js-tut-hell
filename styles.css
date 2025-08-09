@@ -1,9 +1,17 @@
 :root {
-    --primary-color: #000000;
-    --secondary-color: #ffffff;
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-family: 'Arial', sans-serif;
 }
-
 body {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    font-family: var(--font-family);
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0px;
+    padding: 100px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
