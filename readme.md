@@ -7,18 +7,18 @@ HI >.<, If you are going thru my github profile and for some reason decided to c
 ### Learning Resources so far - Being Updated ( Don't Count on me to update this )
 
 Websites:
-https://www.learn-js.org/
-https://javascript.info/
-https://theodinproject.org/
+
+- https://www.learn-js.org/
+- https://javascript.info/
+- https://theodinproject.org/
 
 Books And Yt videos:
-JavaScript For Impatient Programmers or something like that i do not remember rn
-Eloquent Javascript
 
+- JavaScript For Impatient Programmers or something like that i do not remember rn
+- Eloquent Javascript
 
 Course: 
 
-i forgot what Udemy course i Klarna'd 
-
+- i forgot what Udemy course i Klarna'd 
 
 ### Your wondering why this is sloppy, Cuz Its for Personal Use! But idc if the public sees it >.<
