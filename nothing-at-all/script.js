@@ -1,4 +1,4 @@
-const album = document.querySelector('.Album-title');
+const album = document.querySelector('.Album-title'); // DOM THING LOL
 
 console.log(album);
 
@@ -13,9 +13,9 @@ console.log(album);
 // Primitives
 //Immutable 
 let string = 'Primitive';
-let numbers = 4;
+let numbs = 4;
 let booLean = true;
-let nuLL = Null;
+let nuLL = null;
 let symbol = "Lowkey idk what type a symbol is lol"; // Unique primitve value, 
 // everytime one is created it is different from every other symbol
 
@@ -29,7 +29,7 @@ function primitives() {
     // trying to change s in string to T does not work! Cannot change it
     // you need to make a whole new variable to change it or
     // reassign it by hardcoding it\
-    //compared by values
+    //compared by values 
 };
 
 // Non Primitives
@@ -117,7 +117,45 @@ function strings() {
     that spans multiple lines`; // Template literals can span multiple lines
     console.log(MultilineString);
 
-    // String Methods - Important for manipulating strings and LeetCode
+
+}
+
+
+
+// String Methods - Important for manipulating strings and LeetCode
+
+function stringMethods() {
+
+    let str = "Little O";
+
+    console.log(str.length) // returns the length of the string
+
+    let firstLetter = str[0]; // returns the first letter of the str = L
+    let secondLetter = str[1];// returns the secong letter of str = i
+    console.log(firstLetter);
+    console.log(secondLetter);
+
+    console.log(str.toUpperCase()); // turns it to upper case
+    console.log(str.toLowerCase()); // vice versa
+
+    console.log(str.substring(3, 8)); // takes the starting index, and where to stop but does not include it.
+    console.log(str.split(' ')) // this changes the string into an array and splits it! "A" will split at every A
+    console.log(str.split('')) // splits at each letter
+    console.log(str.split('t')) // splits at each t, doesnt include it and is also case Sensitive
 
 
 }
+
+stringMethods();
+
+// you check data types with Typeof
+
+// Changing data types is called : Casting. 
+// parseFloat() Number() + sign, str()
+// Always convert string numbers into numbers for Arithmetic operations.
+
+/*  Day 2: Exercises */
+
+// Ill be doing the Exercises later not now.
+
+// Day 3 Booleans, Operators, Date
