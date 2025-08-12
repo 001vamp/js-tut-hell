@@ -159,3 +159,39 @@ stringMethods();
 // Ill be doing the Exercises later not now.
 
 // Day 3 Booleans, Operators, Date
+
+// Tbh i think i burnt myself out but its ok the time off helps
+
+let exampleFalse = false;
+let exampleTrue = true;
+
+// booleans are either true or false
+
+// all numbers are truthy except zero
+// all strings are truthy except empty strings
+// boolean ; true
+let truthyNumbers = [1, 2, 3, 4, 5]
+let falsyNumber = 0;
+
+let truthyString = "truth";
+let falsyString = "";
+
+// More falsy values
+/*
+0
+0n
+null
+undefined
+NaN
+boolean; false
+'', ``, "" ; empty strings */
+
+let exampleofUndef // undefined if i was to console log it i will get undefined
+
+let empty = null // -> means no value aka null
+
+/* Operators 
+ = is an assignment operator it is used to assign a value to a varibale. 
+ 
+
+*/
