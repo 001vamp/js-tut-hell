@@ -195,3 +195,12 @@ let empty = null // -> means no value aka null
  
 
 */
+console.log(`numbs test og value: ${numbs}`)
+let assignmentExample = "<-- assignment/ assigned this string"
+numbs += 3; // numbs = numbs + 3
+console.log(`Numbs += : ${numbs}`)
+// -= vice versa of above
+// can use *, /, %, ** 
+numbs -= 3; // restting to intial value
+console.log(`-= : ${numbs}`)
+
