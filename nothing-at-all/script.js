@@ -209,3 +209,83 @@ console.log(`-= : ${numbs}`)
 // == Equal in val ; === strict comparision equal in val and type uses no corecsion ; != not equal
 // > greater than ; < less than ; greater than >= ; less than or equal to <= 
 // 
+
+// Date Object
+
+const now = new Date() // logging this gives the time
+
+console.log(now.getFullYear()) // 2020
+
+// the Date Object Has Hella Methods getFullYear getMonth getDate getHours etc..
+
+console.log(now.getHours())
+
+console.log(now.getMonth)
+
+// if if else switch and Ternary ? : ONCE AGAIN 
+
+// if the condition in ( ) is true then the code executes
+if (numbs > 0) {
+    console.log("Is positive.")
+}
+
+// If else ; if condition is true run code - else run this code aka if its false
+if (numbs > 0) {
+    console.log("Is +.")
+} else {
+    console.log('Is -.')
+}
+
+// if else if else support multiple contitions more than two
+
+if (numbs > 20) {
+    console.log(`Greater than 20`)
+} else if (numbs < 0) {
+    console.log(`${a} is a negative number`)
+} else if (a == 0) {
+    console.log(`${a} is zero`)
+} else {
+    console.log(`${a} is not a number`)
+}
+
+// Switch is an alternative for ifelseifelse - 
+
+/* switch (caseValue) {
+    case 1:
+        // code
+        break // use break to exit case
+    case 2:
+        // code
+        break
+    case 3:
+        // code
+        break
+    default:
+    // code
+} */
+
+let weather = 'cloudy'
+switch (weather) {
+    case 'rainy':
+        console.log('You need a rain coat.')
+        break
+    case 'cloudy':
+        console.log('It might be cold, you need a jacket.')
+        break
+    case 'sunny':
+        console.log('Go out freely.')
+        break
+    default:
+        console.log(' No need for rain coat.')
+}
+
+
+// i never seen this syntax for ? 
+let isRaining = true
+isRaining
+    ? console.log('You need a rain coat.')
+    : console.log('No need for a rain coat.')
+
+
+// better syntax: condition ? doThisIfTrue : doThisIfFalse
+// Use ternaries for short, simple choices.
