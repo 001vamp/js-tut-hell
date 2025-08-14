@@ -204,3 +204,8 @@ console.log(`Numbs += : ${numbs}`)
 numbs -= 3; // restting to intial value
 console.log(`-= : ${numbs}`)
 
+
+// Comparisions 
+// == Equal in val ; === strict comparision equal in val and type uses no corecsion ; != not equal
+// > greater than ; < less than ; greater than >= ; less than or equal to <= 
+// 
