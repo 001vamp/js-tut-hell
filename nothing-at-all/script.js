@@ -288,4 +288,16 @@ isRaining
 
 
 // better syntax: condition ? doThisIfTrue : doThisIfFalse
-// Use ternaries for short, simple choices.
+// Use ternaries for short, simple choices. 
+
+// Arrays: again.
+// Arrays have diff data types
+// each value in an array has an Index. the index has a reference in a memory adress
+// The idex starts at zero.
+// The data types are ordered and modifiable.
+
+const arr = Array();
+
+const arr2 = [1, 2, 3];
+
+// both are arrays
