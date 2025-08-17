@@ -241,11 +241,11 @@ if (numbs > 0) {
 if (numbs > 20) {
     console.log(`Greater than 20`)
 } else if (numbs < 0) {
-    console.log(`${a} is a negative number`)
-} else if (a == 0) {
-    console.log(`${a} is zero`)
+    console.log(`${numbs} is a negative number`)
+} else if (numbs == 0) {
+    console.log(`${numbs} is zero`)
 } else {
-    console.log(`${a} is not a number`)
+    console.log(`${numbs} is not a number`)
 }
 
 // Switch is an alternative for ifelseifelse - 
@@ -298,7 +298,52 @@ isRaining
 
 const arr = Array();
 
+const eightEmptyValues = Array(8)/* creates empty array*/.fill('X')/*fills with X's*/;
+console.log(eightEmptyValues);
+
 const arr2 = [1, 2, 3];
 
 // both are arrays
 // push test.
+
+let js = 'JavaScript'
+
+const charsInJavascript = js.split('') // splits at every letter and creats a new array
+
+console.log(charsInJavascript);
+
+let companiesString = 'Facebook, Google, Microsfot, Apple'
+const companies = companiesString.split(',')
+// splits at , and makes a new array
+// i feel like i did this before somewhere
+
+
+const NumbersArray = [2, 20, 50, 300, 432, 38, 11, 93, 63, 72]; // array of numbers
+
+console.log(NumbersArray.length)
+console.log(NumbersArray[1]);
+
+// can use concat to concatinate arrays
+
+const firstList = [1, 2, 3];
+const secondList = [4, 6, 8];
+const thirdList = firstList.concat(secondList); // makes an array with both arrays
+console.log(thirdList);
+
+// .length for array length
+
+
+
+console.log(NumbersArray.indexOf(432)); // get index of an element in a array
+
+
+// loops again
+
+/* for (initialization, condition, incrementdecrement) {
+
+
+}*/
+
+for (let x = 0; x <= 5; x++) {
+    console.log(x)
+}
