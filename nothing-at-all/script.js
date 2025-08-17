@@ -301,3 +301,4 @@ const arr = Array();
 const arr2 = [1, 2, 3];
 
 // both are arrays
+// push test.
