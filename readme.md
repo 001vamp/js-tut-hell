@@ -19,6 +19,7 @@ Books And Yt videos:
 
 Course: 
 
-- i forgot what Udemy course i Klarna'd 
+- i forgot what Udemy course i Klarna'd
+ - add this 
 
 ### Your wondering why this is sloppy, Cuz Its for Personal Use! But idc if the public sees it >.<
