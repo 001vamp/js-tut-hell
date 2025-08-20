@@ -347,3 +347,5 @@ console.log(NumbersArray.indexOf(432)); // get index of an element in a array
 for (let x = 0; x <= 5; x++) {
     console.log(x)
 }
+
+// i might just go learn bash tbh
